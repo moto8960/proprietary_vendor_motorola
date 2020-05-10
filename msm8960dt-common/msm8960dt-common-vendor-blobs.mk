@@ -118,11 +118,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960dt-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/motorola/msm8960dt-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/motorola/msm8960dt-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/motorola/msm8960dt-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/motorola/msm8960dt-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
-    vendor/motorola/msm8960dt-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
-    vendor/motorola/msm8960dt-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
-    vendor/motorola/msm8960dt-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/motorola/msm8960dt-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/motorola/msm8960dt-common/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/msm8960dt-common/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/msm8960dt-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
